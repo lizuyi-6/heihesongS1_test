@@ -35,3 +35,38 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+
+# AI Tools & Local Configuration
+.claude/
+.cursor/
+.aider/
+.copilot/
+.openai/
+.anthropic/
+
+# AI Configuration Files
+*ai*.json
+*ai*.yaml
+*ai*.yml
+*ai*.config.*
+*claude*.json
+*cursor*.json
+
+# Session & History
+.conversation-history/
+.chat-history/
+.session-logs/
+.ai-logs/
+
+# API Keys & Secrets (already covered by .env*, but being explicit)
+*api-key*
+*secret*
+*.key
+credentials.json
+auth.json
+
+# Local Development
+.local/
+temp/
+tmp/
+*.local.*
